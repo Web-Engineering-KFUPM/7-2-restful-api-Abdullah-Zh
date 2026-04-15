@@ -4,7 +4,7 @@
 
 - **Lab:** 7-2-RESTFul-APIs-main
 - **Deadline (Riyadh / UTC+03:00):** 2026-04-15T20:59:00+03:00
-- **Last commit time (from git log):** 2026-04-15T08:39:13+03:00
+- **Last commit time (from git log):** 2026-04-15T08:41:00+03:00
 - **Submission marks:** **20/20** (On time)
 
 
@@ -46,25 +46,19 @@
 **Deductions / Notes**
 - ✅ No deductions. Good job!
 
-### TODO 3: POST /api/songs — **0/18**
+### TODO 3: POST /api/songs — **18/18**
 
 **Checklist**
-- ❌ Defines POST route for "/api/songs"
-- ❌ Uses Song.create(...) or new Song(...).save()
-- ❌ Reads req.body
-- ❌ Uses title from request body
-- ❌ Uses artist from request body
-- ❌ Responds with status 201 on success
-- ❌ Handles error with status 400
+- ✅ Defines POST route for "/api/songs"
+- ✅ Uses Song.create(...) or new Song(...).save()
+- ✅ Reads req.body
+- ✅ Uses title from request body
+- ✅ Uses artist from request body
+- ✅ Responds with status 201 on success
+- ✅ Handles error with status 400
 
 **Deductions / Notes**
-- ❗ Missing: Defines POST route for "/api/songs"
-- ❗ Missing: Uses Song.create(...) or new Song(...).save()
-- ❗ Missing: Reads req.body
-- ❗ Missing: Uses title from request body
-- ❗ Missing: Uses artist from request body
-- ❗ Missing: Responds with status 201 on success
-- ❗ Missing: Handles error with status 400
+- ✅ No deductions. Good job!
 
 ### TODO 4: GET /api/songs and GET /api/songs/:id — **0/12**
 
@@ -84,13 +78,13 @@
 - ❗ Missing: Uses Song.findById(...)
 - ❗ Missing: Returns 404 when song is not found
 
-### TODO 5: PUT /api/songs/:id — **0/11**
+### TODO 5: PUT /api/songs/:id — **1.57/11**
 
 **Checklist**
 - ❌ Defines PUT route for "/api/songs/:id"
 - ❌ Uses Song.findByIdAndUpdate(...)
 - ❌ Uses req.params.id
-- ❌ Uses req.body for update data
+- ✅ Uses req.body for update data
 - ❌ Uses new: true
 - ❌ Uses runValidators: true
 - ❌ Returns 404 when song is not found
@@ -99,7 +93,6 @@
 - ❗ Missing: Defines PUT route for "/api/songs/:id"
 - ❗ Missing: Uses Song.findByIdAndUpdate(...)
 - ❗ Missing: Uses req.params.id
-- ❗ Missing: Uses req.body for update data
 - ❗ Missing: Uses new: true
 - ❗ Missing: Uses runValidators: true
 - ❗ Missing: Returns 404 when song is not found
