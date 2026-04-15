@@ -4,7 +4,7 @@
 
 - **Lab:** 7-2-RESTFul-APIs-main
 - **Deadline (Riyadh / UTC+03:00):** 2026-04-15T20:59:00+03:00
-- **Last commit time (from git log):** 2026-04-15T08:43:22+03:00
+- **Last commit time (from git log):** 2026-04-15T08:45:15+03:00
 - **Submission marks:** **20/20** (On time)
 
 
@@ -73,22 +73,19 @@
 **Deductions / Notes**
 - ✅ No deductions. Good job!
 
-### TODO 5: PUT /api/songs/:id — **4.71/11**
+### TODO 5: PUT /api/songs/:id — **11/11**
 
 **Checklist**
-- ❌ Defines PUT route for "/api/songs/:id"
-- ❌ Uses Song.findByIdAndUpdate(...)
+- ✅ Defines PUT route for "/api/songs/:id"
+- ✅ Uses Song.findByIdAndUpdate(...)
 - ✅ Uses req.params.id
 - ✅ Uses req.body for update data
-- ❌ Uses new: true
-- ❌ Uses runValidators: true
+- ✅ Uses new: true
+- ✅ Uses runValidators: true
 - ✅ Returns 404 when song is not found
 
 **Deductions / Notes**
-- ❗ Missing: Defines PUT route for "/api/songs/:id"
-- ❗ Missing: Uses Song.findByIdAndUpdate(...)
-- ❗ Missing: Uses new: true
-- ❗ Missing: Uses runValidators: true
+- ✅ No deductions. Good job!
 
 ### TODO 6: DELETE /api/songs/:id — **4.4/11**
 
