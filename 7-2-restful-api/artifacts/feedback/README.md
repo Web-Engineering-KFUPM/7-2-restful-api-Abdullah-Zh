@@ -4,7 +4,7 @@
 
 - **Lab:** 7-2-RESTFul-APIs-main
 - **Deadline (Riyadh / UTC+03:00):** 2026-04-15T20:59:00+03:00
-- **Last commit time (from git log):** 2026-04-15T08:41:00+03:00
+- **Last commit time (from git log):** 2026-04-15T08:43:22+03:00
 - **Submission marks:** **20/20** (On time)
 
 
@@ -60,57 +60,48 @@
 **Deductions / Notes**
 - ✅ No deductions. Good job!
 
-### TODO 4: GET /api/songs and GET /api/songs/:id — **0/12**
+### TODO 4: GET /api/songs and GET /api/songs/:id — **12/12**
 
 **Checklist**
-- ❌ Defines GET route for "/api/songs"
-- ❌ Uses Song.find()
-- ❌ Sorts by createdAt descending or newest first
-- ❌ Defines GET route for "/api/songs/:id"
-- ❌ Uses Song.findById(...)
-- ❌ Returns 404 when song is not found
+- ✅ Defines GET route for "/api/songs"
+- ✅ Uses Song.find()
+- ✅ Sorts by createdAt descending or newest first
+- ✅ Defines GET route for "/api/songs/:id"
+- ✅ Uses Song.findById(...)
+- ✅ Returns 404 when song is not found
 
 **Deductions / Notes**
-- ❗ Missing: Defines GET route for "/api/songs"
-- ❗ Missing: Uses Song.find()
-- ❗ Missing: Sorts by createdAt descending or newest first
-- ❗ Missing: Defines GET route for "/api/songs/:id"
-- ❗ Missing: Uses Song.findById(...)
-- ❗ Missing: Returns 404 when song is not found
+- ✅ No deductions. Good job!
 
-### TODO 5: PUT /api/songs/:id — **1.57/11**
+### TODO 5: PUT /api/songs/:id — **4.71/11**
 
 **Checklist**
 - ❌ Defines PUT route for "/api/songs/:id"
 - ❌ Uses Song.findByIdAndUpdate(...)
-- ❌ Uses req.params.id
+- ✅ Uses req.params.id
 - ✅ Uses req.body for update data
 - ❌ Uses new: true
 - ❌ Uses runValidators: true
-- ❌ Returns 404 when song is not found
+- ✅ Returns 404 when song is not found
 
 **Deductions / Notes**
 - ❗ Missing: Defines PUT route for "/api/songs/:id"
 - ❗ Missing: Uses Song.findByIdAndUpdate(...)
-- ❗ Missing: Uses req.params.id
 - ❗ Missing: Uses new: true
 - ❗ Missing: Uses runValidators: true
-- ❗ Missing: Returns 404 when song is not found
 
-### TODO 6: DELETE /api/songs/:id — **0/11**
+### TODO 6: DELETE /api/songs/:id — **4.4/11**
 
 **Checklist**
 - ❌ Defines DELETE route for "/api/songs/:id"
 - ❌ Uses Song.findByIdAndDelete(...)
-- ❌ Uses req.params.id
-- ❌ Returns 404 when song is not found
+- ✅ Uses req.params.id
+- ✅ Returns 404 when song is not found
 - ❌ Returns 204 on successful delete
 
 **Deductions / Notes**
 - ❗ Missing: Defines DELETE route for "/api/songs/:id"
 - ❗ Missing: Uses Song.findByIdAndDelete(...)
-- ❗ Missing: Uses req.params.id
-- ❗ Missing: Returns 404 when song is not found
 - ❗ Missing: Returns 204 on successful delete
 
 ---
