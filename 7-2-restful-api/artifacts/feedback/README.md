@@ -4,7 +4,7 @@
 
 - **Lab:** 7-2-RESTFul-APIs-main
 - **Deadline (Riyadh / UTC+03:00):** 2026-04-15T20:59:00+03:00
-- **Last commit time (from git log):** 2026-04-15T08:45:15+03:00
+- **Last commit time (from git log):** 2026-04-15T08:48:05+03:00
 - **Submission marks:** **20/20** (On time)
 
 
@@ -87,19 +87,17 @@
 **Deductions / Notes**
 - ✅ No deductions. Good job!
 
-### TODO 6: DELETE /api/songs/:id — **4.4/11**
+### TODO 6: DELETE /api/songs/:id — **11/11**
 
 **Checklist**
-- ❌ Defines DELETE route for "/api/songs/:id"
-- ❌ Uses Song.findByIdAndDelete(...)
+- ✅ Defines DELETE route for "/api/songs/:id"
+- ✅ Uses Song.findByIdAndDelete(...)
 - ✅ Uses req.params.id
 - ✅ Returns 404 when song is not found
-- ❌ Returns 204 on successful delete
+- ✅ Returns 204 on successful delete
 
 **Deductions / Notes**
-- ❗ Missing: Defines DELETE route for "/api/songs/:id"
-- ❗ Missing: Uses Song.findByIdAndDelete(...)
-- ❗ Missing: Returns 204 on successful delete
+- ✅ No deductions. Good job!
 
 ---
 
